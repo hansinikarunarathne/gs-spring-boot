@@ -21,6 +21,8 @@ public class HelloControllerTest {
 
     @Autowired
     private MockMvc mvc;
+    @MockBean
+    ApplicationService applicationService;
 
     @Test
     public void getHello() throws Exception {
