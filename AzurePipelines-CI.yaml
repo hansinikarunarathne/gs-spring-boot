@@ -2,7 +2,6 @@ pool:
   name: Default
   demands:
    - agent.name -equals DESKTOP-SD4EE1J 
-    - maven
 
 steps:
 - task: Maven@3
