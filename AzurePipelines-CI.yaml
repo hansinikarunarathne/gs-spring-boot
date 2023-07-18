@@ -1,5 +1,5 @@
 pool:
-  vmImage: Default # Hosted Ubuntu 1604
+  vmImage: Default 
   demands: maven
 
 steps:
